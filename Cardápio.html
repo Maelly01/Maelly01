@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento -->
+
+<html lang="pt-br"> <!-- Início do documento HTML com a linguagem definida como português brasileiro -->
+
+<head>
+	<meta charset="UTF-8"> <!-- Meta tag para definir o conjunto de caracteres UTF-8 -->
+	<title> Bolero Ca'Fé </title> <!-- Título da página/cabeçalho -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta tag para ajustar a escala em dispositivos móveis -->
+	<style> div.Centralizar { text-align: center;} </style> <!-- Centralizar meus textos através da minha DIV "Centralizar" (isso aqui é CSS) -->
+</head>
+  
+<body> <!-- Início do corpo do documento -->
+
+  <div class="Centralizar">
+  	<h1> Cardápio do Bolero Ca'Fé </h1>
+  	<img src = "https://franquias.converlab.com.br/wp-content/uploads/2022/11/franquia_grao_espresso.jpg" />
+    <!-- Imagem da cafeteria -->
+  	<!-- Tem que ser entre aspas + "COPIAR ENDEREÇO DA IMAGEM" -->
+  
+  	<h2> FAÇA JÁ SEU PEDIDO! </h2> <!-- Título da seção -->
+    <div id="Digite seu pedido"> <!-- Essa DIV mostra a opção de busca para o usuário digitar -->
+      <input id="box" maxlength="80" placeholder="Digite seu pedido" value=""/>
+      <!-- Aqui mostra o botão para o usuário clicar: -->
+      <button> BUSCAR </button>
+      <p>
+    </div>
+    
+  <details> <!-- Mostra todas as opções dentro de um botão -->
+      <summary> Temos as seguintes opções: </summary>
+      <p> <!-- Espaço/parágrafo -->
+
+      <nav> <!-- DIVs CHECKBOX (marcar) -->
+        <div>
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" />
+          <label for="subscribeNews"> House Blend - $1,49 </label>
+          <p> A smooth, mild blend of coffes from Mexico, Bolivia and Guatemala. <!-- Parágrafo com informações sobre o produto -->
+        </div>
+
+        <div>
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" />
+          <label for="subscribeNews"> Macha Cofe Latte - $2,25 </label>
+          <p> Expresso, Steamed milk and chocalate syrup.
+        </div>
+
+        <div>
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" />
+          <label for="subscribeNews"> Cappuccino - $1,89 </label>
+          <p> A mixture of espresso, steamed milk and foam.
+        </div>
+
+        <div>
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" />
+          <label for="subscribeNews"> Chai Tea - $1,85 </label>
+          <p> A spicy drink made with black tea, spices, milk and honey.
+        </div>
+        <button> COMPRAR </button>
+      </nav>
+  
+  </details>
+
+  </div>
+  <footer>
+    <p>Rodapé da página.</p> <!-- Texto do rodapé -->
+  </footer>
+
+</body> <!-- Final do corpo do documento -->
+
+</html>
